@@ -35,7 +35,7 @@ end
 def fizzbuzz
   myarray = Array.new
   $i = 1
-  while $i < 100 do
+  while $i < 101 do
     if ($i%3 == 0 && $i%5 == 0)
       then myarray.push("FizzBuzz")
     elsif ($i%3 == 0)
